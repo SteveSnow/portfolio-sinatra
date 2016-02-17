@@ -1,0 +1,86 @@
+body{
+display: flex;
+}
+#title{
+position: absolute;
+top:50px;
+left:100px;
+font-size: 30;
+}
+#bannerLine{
+	width: 100%;
+	height: 4px;
+	background-color: #4CAF50;
+	position: absolute;
+	top:80px;
+	left:100px;
+	line-height: 0.5;
+	display: float;
+}
+#background{
+position: absolute;
+top: 0;
+left:0;
+background-color: #1976D2;
+height:50%;
+width: 100%;
+/*opacity: .5;*/
+z-index: 1;
+display: flex;
+}
+#backStage{
+position: absolute;
+top: 20px;
+left:30px;
+display: flex;
+width: 200px;
+height: 80px;
+}
+#backStage h1{
+float:left;
+padding-left: 30px;
+color: white;
+}
+#backIcon{
+height: 50px;
+width: 50px;
+color: white;
+float: left;
+}
+#backLink:hover #backIcon {
+color:#4CAF50;
+}
+#backLink:hover ~ #backTitle {
+color: #4CAF50;
+}
+#links{
+display: float;
+position: absolute;
+right: 30px;
+top:30px;
+}
+nav {
+display: flex;
+display: inline-block;
+
+}
+nav ul{
+padding-left: 0;
+}
+nav li{
+float: left;
+padding-left: 10px;
+margin:auto;
+color: white;
+font-size: 20;
+}
+nav li:hover{
+color:#4CAF50;
+text-decoration: underline;
+}
+.currentPage{
+color:#4CAF50;
+}
+.currentPage:hover{
+	text-decoration: none;
+}

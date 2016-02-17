@@ -1,0 +1,12 @@
+#mainStage{
+	display: flex;
+height: 75%;
+width: 80%;
+margin:auto;
+margin-top:10%;
+z-index: 6;
+justify-content:space-between;
+flex-wrap: wrap;
+background-color: white;
+border:10px #4CAF50 solid;
+}

@@ -1,0 +1,30 @@
+#mainStage{
+	display: flex;
+height: 500px;
+width: 80%;
+margin:auto;
+z-index: 6;
+justify-content:space-between;
+flex-wrap: wrap;
+}
+.floatArticle{
+margin: auto;
+width: 220px;
+height: 50%;
+background-color: #4CAF50;
+/*border:5px black double;*/
+}
+
+.floatArticle li{
+	margin-left: 20px;
+}
+.floatArticle li a{
+	text-decoration: none;
+	text-color-black;
+}
+
+.headlineIcon{
+	text-align: center;
+	width:100%;
+	margin-top: 10px;
+}
